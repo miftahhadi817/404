@@ -1,7 +1,8 @@
+import javax.swing.JOptionPane;
+
 public class DataTypes{
  public static void main(String[] args) {
 
- Scanner cin = new Scanner(System.in);
  String namaDepan = "Miftah";
  String namaTengah = "Hadi";
  String namaBelakang = "Syah";
@@ -11,7 +12,6 @@ public class DataTypes{
  char nilaiAbjad = 'A';
  boolean tampan = true;
 
- System.out.println("========== OUTPUT ============");
  System.out.println("Nama depan : " + namaDepan);
  System.out.println("Nama tengah : " + namaTengah);
  System.out.println("Nama belakang: " + namaBelakang);
@@ -20,5 +20,8 @@ public class DataTypes{
  System.out.println("IPK : " + ipk);
  System.out.println("Nilai PBO : " + nilaiAbjad);
  System.err.println("Tampan : " + tampan);
+
+ JOptionPane.showMessageDialog(null,"Hai, " + namaDepan + namaTengah + namaBelakang);
+ 
  }
 }
